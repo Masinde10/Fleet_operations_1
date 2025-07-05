@@ -32,3 +32,8 @@ The visualization above shows the distriutio of different units in the company. 
 ![Distribution of Models](https://github.com/Masinde10/Fleet_operations_1/blob/main/Images/Models.png)
 
 The above visualization goes deeper to give more insights on the fleet visualized earlier. It shows the differentt models present in the different classes of vehicles. 
+
+### MODELLING
+After completing exploratory data analysis and getting the charactreistics of our data, We dive into modelling. I chose the baseline model to be a linear regression model since the data showed lots of linear properties. It perfomed well but to exhaust our options, I fitted other different models. I fitted Random forest regressor which perfomed slightly lower than the baseline model. I introduced hyperparamaters and model tuning but still the perfomance was lower. I fitted the Decision Tree classifier which perfomed the worst among all the models. The behaviours of the other models convinced me fully that the data had huge linear properties and therefore went back to improving the baseline moedl. I introduced the lasso penalty which helps in reducing overfitting and setting the coefficients of the less useful features to zero. At the end, those feature with more importance are the ones used for prediction. While fitting the random forest regressor, I checked for feature importance and the results are below. 
+
+![Feature Importance](
