@@ -45,7 +45,7 @@ The model's feature selection process retained 27 key predictors, highlighting t
 
 The findings reveal that certain vehicle types, models, suppliers, and recurring technical issues significantly contribute to higher costs of ownership. Furthermore, noticeable seasonal patterns indicate predictable periods of increased expenditure, providing actionable insights for operational planning.
 
-Recommendations
+### Recommendations
 Optimize Procurement and Insurance Policies
 
 Implement more stringent vehicle acquisition assessments, focusing on total cost of ownership beyond the initial purchase price.
