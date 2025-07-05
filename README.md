@@ -17,4 +17,5 @@ In this chapter we aim to clean our data before proceeding with analysis. The co
 ### EXPLORATORY DATA ANALYSIS
 In this section, we visualize different feature relationships. we aim to uncover the trends our our data at this point. Often, this is where we decide on the model that we will use for our project depending on the results of the visualizations.
 ![Cost of Ownership Distribution](https://github.com/Masinde10/Fleet_operations_1/blob/main/Images/Cost%20of%20ownership.png)
+![cost of production](https://raw.githubusercontent.com/Masinde10/Fleet_operations_1/main/Images/Cost%20of%20ownership.png)
 
