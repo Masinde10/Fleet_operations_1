@@ -21,5 +21,14 @@ In this section, we visualize different feature relationships. we aim to uncover
 From the above visualization above, we see that the cost of maintainance is on the average. The Medium Bin is the highest followed by the bin for low cost of maintainance.The goal is to shift the maintanance cost to the lower side.
 
 ![Relationship between Fuel consumed and distance travelled](https://github.com/Masinde10/Fleet_operations_1/blob/main/Images/Fuel%20vs%20Distance%20covered.png)
+
 The scatter plot shows that there is a hge relationship between fuel consumed and distance covered. Furthermore, it shows how differnt vehicles behave when it comes to fuel consumption. Motorcycles have the lowest ratio of fuel consumption from the graph. 
 
+![Distribution of units](https://github.com/Masinde10/Fleet_operations_1/blob/main/Images/Units.png)
+
+The visualization above shows the distriutio of different units in the company. Being a sugar mills company, the fleet with the highest number is the tractor fleet, followed by trucks, light vehicle, heavy vehicles and then Motorbikes.
+
+
+![Distribution of Models](https://github.com/Masinde10/Fleet_operations_1/blob/main/Images/Models.png)
+
+The above visualization goes deeper to give more insights on the fleet visualized earlier. It shows the differentt models present in the different classes of vehicles. 
