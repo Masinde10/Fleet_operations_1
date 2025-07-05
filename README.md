@@ -17,5 +17,7 @@ In this chapter we aim to clean our data before proceeding with analysis. The co
 ### EXPLORATORY DATA ANALYSIS
 In this section, we visualize different feature relationships. we aim to uncover the trends our our data at this point. Often, this is where we decide on the model that we will use for our project depending on the results of the visualizations.
 ![Cost of Ownership Distribution](https://github.com/Masinde10/Fleet_operations_1/blob/main/Images/Cost%20of%20ownership.png)
-![cost of production](https://raw.githubusercontent.com/Masinde10/Fleet_operations_1/main/Images/Cost%20of%20ownership.png)
+From the above visualization above, we see that the cost of maintainance is on the average. The Medium Bin is the highest followed by the bin for low cost of maintainance.The goal is to shift the maintanance cost to the lower side.
+![Relationship between Fuel consumed and distance travelled](https://github.com/Masinde10/Fleet_operations_1/blob/main/Images/Fuel%20vs%20Distance%20covered.png)
+The scatter plot shows that there is a hge relationship between fuel consumed and distance covered. Furthermore, it shows how differnt vehicles behave when it comes to fuel consumption. Motorcycles have the lowest ratio of fuel consumption from the graph. 
 
