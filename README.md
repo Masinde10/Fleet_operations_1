@@ -36,4 +36,36 @@ The above visualization goes deeper to give more insights on the fleet visualize
 ### MODELLING
 After completing exploratory data analysis and getting the charactreistics of our data, We dive into modelling. I chose the baseline model to be a linear regression model since the data showed lots of linear properties. It perfomed well but to exhaust our options, I fitted other different models. I fitted Random forest regressor which perfomed slightly lower than the baseline model. I introduced hyperparamaters and model tuning but still the perfomance was lower. I fitted the Decision Tree classifier which perfomed the worst among all the models. The behaviours of the other models convinced me fully that the data had huge linear properties and therefore went back to improving the baseline moedl. I introduced the lasso penalty which helps in reducing overfitting and setting the coefficients of the less useful features to zero. At the end, those feature with more importance are the ones used for prediction. While fitting the random forest regressor, I checked for feature importance and the results are below. 
 
-![Feature Importance](
+![Feature Importance](https://github.com/Masinde10/Fleet_operations_1/blob/main/Feature%20importance.png)
+
+### Conclusion
+The Lasso Regression model developed for this project effectively explains approximately 77% of the variance in fleet ownership costs at Butali Sugar Mills Limited. After rigorous testing of various models, including Linear Regression, Random Forest, and Gradient Boosting, Lasso Regression demonstrated the best balance of predictive performance, simplicity, and interpretability.
+
+The model's feature selection process retained 27 key predictors, highlighting the most significant cost drivers within the company's fleet operations. These include purchase and insurance costs, specific vehicle types and models, critical vehicle components, supplier influence, reported mechanical issues, and seasonal fluctuations.
+
+The findings reveal that certain vehicle types, models, suppliers, and recurring technical issues significantly contribute to higher costs of ownership. Furthermore, noticeable seasonal patterns indicate predictable periods of increased expenditure, providing actionable insights for operational planning.
+
+Recommendations
+Optimize Procurement and Insurance Policies
+
+Implement more stringent vehicle acquisition assessments, focusing on total cost of ownership beyond the initial purchase price.
+Review and renegotiate insurance coverage to achieve a more favorable balance between protection and cost efficiency.
+Review Fleet Composition
+
+Conduct detailed performance and cost evaluations for high-cost vehicle types and models, particularly trucks and other identified units, with the aim of optimizing fleet structure.
+Enhance Targeted Maintenance Programs
+
+Strengthen preventive maintenance strategies for critical vehicle systems, including braking, fuel, ignition, and mechanical components.
+Introduce proactive diagnostics and technician retraining to reduce occurrences of battery failures, coolant leaks, and overcharging issues.
+Improve Supplier Management
+
+Evaluate the performance and product quality of key suppliers, particularly AutoGen_9 and AutoGen_10.
+Explore alternative suppliers or renegotiate contracts to minimize maintenance-related ownership costs.
+Plan for Seasonal Cost Fluctuations
+
+Utilize historical data to predict high-cost months such as August, December, and February.
+Allocate resources and schedule preventive maintenance in advance to mitigate seasonal expenditure spikes.
+Continuous Data-Driven Improvements
+
+Maintain ongoing data collection and periodically retrain the model to capture new trends and evolving cost drivers.
+Integrate insights from this model into strategic decision-making for the transport department to ensure sustainable cost reductions and operational efficiency.
