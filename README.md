@@ -46,26 +46,25 @@ The model's feature selection process retained 27 key predictors, highlighting t
 The findings reveal that certain vehicle types, models, suppliers, and recurring technical issues significantly contribute to higher costs of ownership. Furthermore, noticeable seasonal patterns indicate predictable periods of increased expenditure, providing actionable insights for operational planning.
 
 ### Recommendations
-Optimize Procurement and Insurance Policies
-
+1. Optimize Procurement and Insurance Policies
 Implement more stringent vehicle acquisition assessments, focusing on total cost of ownership beyond the initial purchase price.
-Review and renegotiate insurance coverage to achieve a more favorable balance between protection and cost efficiency.
-Review Fleet Composition
 
+2. Review and renegotiate insurance coverage to achieve a more favorable balance between protection and cost efficiency.
+Review Fleet Composition
 Conduct detailed performance and cost evaluations for high-cost vehicle types and models, particularly trucks and other identified units, with the aim of optimizing fleet structure.
 Enhance Targeted Maintenance Programs
 
-Strengthen preventive maintenance strategies for critical vehicle systems, including braking, fuel, ignition, and mechanical components.
+3. Strengthen preventive maintenance strategies for critical vehicle systems, including braking, fuel, ignition, and mechanical components.
 Introduce proactive diagnostics and technician retraining to reduce occurrences of battery failures, coolant leaks, and overcharging issues.
-Improve Supplier Management
 
+4. Improve Supplier Management
 Evaluate the performance and product quality of key suppliers, particularly AutoGen_9 and AutoGen_10.
 Explore alternative suppliers or renegotiate contracts to minimize maintenance-related ownership costs.
-Plan for Seasonal Cost Fluctuations
 
+5. Plan for Seasonal Cost Fluctuations
 Utilize historical data to predict high-cost months such as August, December, and February.
 Allocate resources and schedule preventive maintenance in advance to mitigate seasonal expenditure spikes.
-Continuous Data-Driven Improvements
 
+6. Continuous Data-Driven Improvements
 Maintain ongoing data collection and periodically retrain the model to capture new trends and evolving cost drivers.
 Integrate insights from this model into strategic decision-making for the transport department to ensure sustainable cost reductions and operational efficiency.
