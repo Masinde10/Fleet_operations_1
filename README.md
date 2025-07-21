@@ -16,14 +16,17 @@ The Data we are using for this project has been sourced from the internet with t
 In this chapter we aim to clean our data before proceeding with analysis. The core focus is checking for null values and duplicates. Null values can be handled by dropping the entire row or by filling them with mean or mode of the column. Duplicates are dropped so as to get the correct represantation of features during analysis. From the code below, we see that we do not have any null values. There are no duplicates in our data too. We can therefore proceed to the next step
 ### EXPLORATORY DATA ANALYSIS
 In this section, we visualize different feature relationships. we aim to uncover the trends our our data at this point. Often, this is where we decide on the model that we will use for our project depending on the results of the visualizations.
-<<<<<<< HEAD
+
 ![Cost of Ownership Distribution](C:\Users\USER\Documents\Ds\Fleet_operations_1\Images\Cost of ownership.png)
 
 From the above visualization above, we see that the cost of maintainance is on the average. The Medium Bin is the highest followed by the bin for low cost of maintainance.The goal is to shift the maintanance cost to the lower side.
 
 ![Relationship between Fuel consumed and distance travelled](C:\Users\USER\Documents\Ds\Fleet_operations_1\Images\Fuel vs Distance covered.png)
-=======
+
 ![Cost of Ownership Distribution](Images\cost of ownership.png)
+
+![Cost of Ownership](https://raw.githubusercontent.com/Masinde10/Fleet_operations_1/main/Images/cost%20of%20ownership.png)
+
 
 From the above visualization above, we see that the cost of maintainance is on the average. The Medium Bin is the highest followed by the bin for low cost of maintainance.The goal is to shift the maintanance cost to the lower side.
 
@@ -44,9 +47,9 @@ The above visualization goes deeper to give more insights on the fleet visualize
 ### MODELLING
 After completing exploratory data analysis and getting the charactreistics of our data, We dive into modelling. I chose the baseline model to be a linear regression model since the data showed lots of linear properties. It perfomed well but to exhaust our options, I fitted other different models. I fitted Random forest regressor which perfomed slightly lower than the baseline model. I introduced hyperparamaters and model tuning but still the perfomance was lower. I fitted the Decision Tree classifier which perfomed the worst among all the models. The behaviours of the other models convinced me fully that the data had huge linear properties and therefore went back to improving the baseline moedl. I introduced the lasso penalty which helps in reducing overfitting and setting the coefficients of the less useful features to zero. At the end, those feature with more importance are the ones used for prediction. While fitting the random forest regressor, I checked for feature importance and the results are below. 
 
-<<<<<<< HEAD
+
 ![Feature Importance](C:\Users\USER\Documents\Ds\Fleet_operations_1\Feature importance.png)
-=======
+
 ![Horizontal bar chart displaying feature importance scores for various fleet management factors. The top two features have significantly higher importance scores than the rest, with the first bar being the longest and the second bar about half its length. Remaining features have much shorter bars, indicating lower importance. The chart uses a gradient color scheme from dark purple to green. No visible axis labels or feature names are present. The overall tone is analytical and data-driven, emphasizing the dominance of a few key features in predicting fleet ownership costs.]
 
 ### Conclusion
