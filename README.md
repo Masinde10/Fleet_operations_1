@@ -23,21 +23,21 @@ From the above visualization above, we see that the cost of maintainance is on t
 
 ![Relationship between Fuel consumed and distance travelled](C:\Users\USER\Documents\Ds\Fleet_operations_1\Images\Fuel vs Distance covered.png)
 =======
-![Cost of Ownership Distribution](https://github.com/Masinde10/Fleet_operations_1/blob/main/Images/cost%20of%20ownership.png)
+![Cost of Ownership Distribution](Images\cost of ownership.png)
 
 From the above visualization above, we see that the cost of maintainance is on the average. The Medium Bin is the highest followed by the bin for low cost of maintainance.The goal is to shift the maintanance cost to the lower side.
 
-![Relationship between Fuel consumed and distance travelled](https://github.com/Masinde10/Fleet_operations_1/blob/main/Images/vehicle%20distance%20vs%20fuel%20consumption.png)
->>>>>>> f9fd462bbe899b661e908f680226283661889d3f
+![Relationship between Fuel consumed and distance travelled](Images\vehicle distance vs fuel consumption.png)
+
 
 The scatter plot shows that there is a hge relationship between fuel consumed and distance covered. Furthermore, it shows how differnt vehicles behave when it comes to fuel consumption. Motorcycles have the lowest ratio of fuel consumption from the graph. 
 
-![Distribution of units](C:\Users\USER\Documents\Ds\Fleet_operations_1\Images\Units.png)
+![Distribution of units](Images\Units.png)
 
 The visualization above shows the distriutio of different units in the company. Being a sugar mills company, the fleet with the highest number is the tractor fleet, followed by trucks, light vehicle, heavy vehicles and then Motorbikes.
 
 
-![Distribution of Models](C:\Users\USER\Documents\Ds\Fleet_operations_1\Images\Models.png)
+![Distribution of Models](Images\Models.png)
 
 The above visualization goes deeper to give more insights on the fleet visualized earlier. It shows the differentt models present in the different classes of vehicles. 
 
@@ -47,8 +47,7 @@ After completing exploratory data analysis and getting the charactreistics of ou
 <<<<<<< HEAD
 ![Feature Importance](C:\Users\USER\Documents\Ds\Fleet_operations_1\Feature importance.png)
 =======
-![Feature Importance](https://github.com/Masinde10/Fleet_operations_1/blob/main/Images/Feature%20importance.png)
->>>>>>> f9fd462bbe899b661e908f680226283661889d3f
+![Horizontal bar chart displaying feature importance scores for various fleet management factors. The top two features have significantly higher importance scores than the rest, with the first bar being the longest and the second bar about half its length. Remaining features have much shorter bars, indicating lower importance. The chart uses a gradient color scheme from dark purple to green. No visible axis labels or feature names are present. The overall tone is analytical and data-driven, emphasizing the dominance of a few key features in predicting fleet ownership costs.]
 
 ### Conclusion
 The Lasso Regression model developed for this project effectively explains approximately 77% of the variance in fleet ownership costs at Butali Sugar Mills Limited. After rigorous testing of various models, including Linear Regression, Random Forest, and Gradient Boosting, Lasso Regression demonstrated the best balance of predictive performance, simplicity, and interpretability.
