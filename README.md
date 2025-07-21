@@ -23,7 +23,8 @@ From the above visualization above, we see that the cost of maintainance is on t
 
 ![Relationship between Fuel consumed and distance travelled](C:\Users\USER\Documents\Ds\Fleet_operations_1\Images\Fuel vs Distance covered.png)
 =======
-![Cost of Ownership Distribution](https://github.com/Masinde10/Fleet_operations_1/blob/main/Images/cost%20of%20ownership.png)
+![Cost of Ownership](https://raw.githubusercontent.com/Masinde10/Fleet_operations_1/main/Images/cost%20of%20ownership.png)
+
 
 From the above visualization above, we see that the cost of maintainance is on the average. The Medium Bin is the highest followed by the bin for low cost of maintainance.The goal is to shift the maintanance cost to the lower side.
 
