@@ -3,15 +3,15 @@
 
 ## BUSINESS UNDERSTANDING
 ### Project Overview
-This project is designed to help a company manage it`s fleet effectively. The project is developed with the transport department of the said comapny in mind. The comapny has several vehicles that are being managed by the transport department. For the smooth running of the company processes, every department needs to work optimally, transport department included. The project aims at making sure the fleets are utilised in a manner that serves their purpose effectively.
+This project is designed to help a company manage it`s fleet effectively. The project is developed with the transport department of the said company in mind. The company has several vehicles that are being managed by the transport department. For the smooth running of the company processes, every department needs to work optimally, transport department included. The project aims at making sure the fleets are utilised in a manner that serves their purpose effectively.
 
 ### Problem Statement 
-The comapny having a huge fleet, makes it hard to handle and manage them cassually. There needs to be a system that helps to manage the same. The project at hand aims to adress some of the challenges that the department could otherwise face on fleet management. The project aims to do the following. 
+The company having a huge fleet, makes it hard to handle and manage them cassually. There needs to be a system that helps to manage the same. The project at hand aims to adress some of the challenges that the department could otherwise face on fleet management. The project aims to do the following. 
 1.  Monitor Fuel, maintainance and Insurance expenses for the fleets. This helps us to determine the units that are prooving expensive  to own
 2.  Monitor fuel effieciency, Vehicle downtime and maintainace frequencies. This is critical for pinpointing units that are less efficient.
 3.  Assess the quality of maintaince products from different suppliers. Spare parts of good quality are more durable and therefore we aim to identify which suppliers and parts are to be ordered.
 ### DATA UNDERSTANDING
-The Data we are using for this project has been sourced from the internet with the help of AI tools. I fed it with instructions of columns that I would like in my dataset and helped refine the values. The data therefore does not represent the real picture on the ground. The dataset has 2000 rows and 14 git columns. The columns represent different features such as Vehicle type, part name, supplier, Issue_reported, Fuel_consumed, Cost of ownership etc. From the overall summary of the data, we see Float and Object present as the data type. The numerical columns are 5 while the categorical ones are 9 in total.  
+Our dataset consists of 2,000 rows and 14 columns, generated using AI tools to create a representative sample of vehicle-related data. The dataset includes 5 numerical columns (Float type) and 9 categorical columns (Object type), capturing various vehicle attributes such as Vehicle type, part name, supplier, Issue_reported, Fuel_consumed, and Cost of ownership. While this AI-generated dataset provides a useful representation of the relationships between these variables, it should be noted that it represents a synthetic approximation rather than actual data on the ground.
 ### DATA CLEANING
 In this chapter we aim to clean our data before proceeding with analysis. The core focus is checking for null values and duplicates. Null values can be handled by dropping the entire row or by filling them with mean or mode of the column. Duplicates are dropped so as to get the correct represantation of features during analysis. From the code below, we see that we do not have any null values. There are no duplicates in our data too. We can therefore proceed to the next step
 ### EXPLORATORY DATA ANALYSIS
@@ -19,12 +19,12 @@ In this section, we visualize different feature relationships. we aim to uncover
 
 ![Cost of Ownership Distribution](Images/cost_of_ownership.png)
 
-From the above visualization above, we see that the cost of Ownership is on the average. The Medium Bin is the highest followed by the bin for low cost of Ownership .The goal is to shift the maintanance cost to the lower side.
+From the above visualization above, we see that the cost of Ownership is on the average. The Medium Bin is the highest followed by the bin for low cost of Ownership .The goal is to shift the Ownership cost to the lower side.
 
-![Relationship between Fuel consumed and distance travelled](Images\Fuel_vs_Distance_covered.png)
+![Relationship between Fuel consumed and distance travelled](Images/Fuel_vs_Distance_covered.png)
 
 
-The scatter plot shows that there is a hge relationship between fuel consumed and distance covered. Furthermore, it shows how differnt vehicles behave when it comes to fuel consumption. Motorcycles have the lowest ratio of fuel consumption from the graph. 
+The scatter plot shows that there is a huge relationship between fuel consumed and distance covered. Furthermore, it shows how differnt vehicles behave when it comes to fuel consumption. Motorcycles have the lowest ratio of fuel consumption from the graph. 
 
 
 ![Distribution of units](Images/Type_of_vehicle.png)
